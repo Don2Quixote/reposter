@@ -1,9 +1,9 @@
 # reposter
-Пересылка поста формата "Текст, url, картинка" из ВКонтакте в телеграмм
+Bot reposts posts with format "Text, url, picture" form VK to Telegram
 
-# Файл .env
- - Поле VK_TOKEN - Любой токен с доступом к API ВК
- - Поле TG_TOKEN - Токен бота в телеграмме
- - Поле GROUP_DOMAIN - Сокращённая ссылка на паблик ВК, откуда парсится новый пост
- - Поле CHANNEL_ID - ID телеграмм канала, куда пересылается пост из ВК
+# .env
+ - Field VK_TOKEN - Any token with access to API Vk
+ - Field TG_TOKEN - Telegram bot's token
+ - Field GROUP_DOMAIN - Vk groups's username (domain)
+ - Field CHANNEL_ID - Telegram channel's ID, where posts must be appeared
  
